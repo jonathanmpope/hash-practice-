@@ -5,5 +5,12 @@ person = {
   "eye_color": "brown"
 }
 
-p person
+
 p person[:name]
+
+person["hair_color"] = "black"
+person["shirt"] = "red"
+
+person.keys
+
+p person
